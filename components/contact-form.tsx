@@ -1,10 +1,8 @@
-"use client";
-
-import React from "react";
+"use client"
 
 const GetInvolvedSection = () => {
   return (
-    <section className="w-full bg-[#0A1C45] text-white py-20 font-[Tahoma] relative overflow-hidden">
+    <section className="w-full bg-[#0A1C45] text-white py-20 font-[Inter] relative overflow-hidden">
       {/* Subtle background watermark pattern */}
       <div
         className="absolute bottom-0 left-0 w-full h-full opacity-10 pointer-events-none"
@@ -23,9 +21,8 @@ const GetInvolvedSection = () => {
         <div className="md:w-1/2 space-y-6">
           <h2 className="text-3xl md:text-4xl font-bold">Get Involved</h2>
           <p className="text-[#DCE2F0] text-base md:text-lg leading-relaxed">
-            We welcome collaboration with donors, investors, and institutions
-            that share our vision for sustainable development and community
-            empowerment. Contact our team to explore partnership opportunities.
+            We welcome collaboration with donors, investors, and institutions that share our vision for sustainable
+            development and community empowerment. Contact our team to explore partnership opportunities.
           </p>
 
           {/* Optional decorative shape or image */}
@@ -43,83 +40,75 @@ const GetInvolvedSection = () => {
           <form className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {/* Full Name / Phone Number */}
             <div className="flex flex-col">
-              <label className="text-sm text-[#DCE2F0] mb-1">Full Name</label>
+              <label className="text-sm text-white mb-1">Full Name</label>
               <input
                 type="text"
                 placeholder="Blue Acer Group of Companies"
-                className="bg-transparent border border-[#DCE2F0]/40 rounded-md px-4 py-3 text-sm text-white focus:outline-none focus:border-[#5DA6A8]"
+                className="bg-transparent border-2 border-white rounded-none px-4 py-3 text-sm text-white placeholder:text-white/60 focus:outline-none focus:border-white focus:ring-2 focus:ring-[#5DA6A8] focus:ring-offset-2 focus:ring-offset-[#0A1C45] transition-all"
               />
             </div>
             <div className="flex flex-col">
-              <label className="text-sm text-[#DCE2F0] mb-1">Phone Number</label>
+              <label className="text-sm text-white mb-1">Phone Number</label>
               <input
                 type="text"
                 placeholder="+971 321 4567543"
-                className="bg-transparent border border-[#DCE2F0]/40 rounded-md px-4 py-3 text-sm text-white focus:outline-none focus:border-[#5DA6A8]"
+                className="bg-transparent border-2 border-white rounded-none px-4 py-3 text-sm text-white placeholder:text-white/60 focus:outline-none focus:border-white focus:ring-2 focus:ring-[#5DA6A8] focus:ring-offset-2 focus:ring-offset-[#0A1C45] transition-all"
               />
             </div>
 
             {/* Email / Company Name */}
             <div className="flex flex-col">
-              <label className="text-sm text-[#DCE2F0] mb-1">Email Address</label>
+              <label className="text-sm text-white mb-1">Email Address</label>
               <input
                 type="email"
                 placeholder="example@email.com"
-                className="bg-transparent border border-[#DCE2F0]/40 rounded-md px-4 py-3 text-sm text-white focus:outline-none focus:border-[#5DA6A8]"
+                className="bg-transparent border-2 border-white rounded-none px-4 py-3 text-sm text-white placeholder:text-white/60 focus:outline-none focus:border-white focus:ring-2 focus:ring-[#5DA6A8] focus:ring-offset-2 focus:ring-offset-[#0A1C45] transition-all"
               />
             </div>
             <div className="flex flex-col">
-              <label className="text-sm text-[#DCE2F0] mb-1">Company Name</label>
+              <label className="text-sm text-white mb-1">Company Name</label>
               <input
                 type="text"
                 placeholder="Blue Acer Group of Companies"
-                className="bg-transparent border border-[#DCE2F0]/40 rounded-md px-4 py-3 text-sm text-white focus:outline-none focus:border-[#5DA6A8]"
+                className="bg-transparent border-2 border-white rounded-none px-4 py-3 text-sm text-white placeholder:text-white/60 focus:outline-none focus:border-white focus:ring-2 focus:ring-[#5DA6A8] focus:ring-offset-2 focus:ring-offset-[#0A1C45] transition-all"
               />
             </div>
 
             {/* Address / Company Number */}
             <div className="flex flex-col">
-              <label className="text-sm text-[#DCE2F0] mb-1">
-                Company Address (Emirate, City, Address)
-              </label>
+              <label className="text-sm text-white mb-1">Company Address (Emirate, City, Address)</label>
               <input
                 type="text"
                 placeholder="Lorem Ipsum"
-                className="bg-transparent border border-[#DCE2F0]/40 rounded-md px-4 py-3 text-sm text-white focus:outline-none focus:border-[#5DA6A8]"
+                className="bg-transparent border-2 border-white rounded-none px-4 py-3 text-sm text-white placeholder:text-white/60 focus:outline-none focus:border-white focus:ring-2 focus:ring-[#5DA6A8] focus:ring-offset-2 focus:ring-offset-[#0A1C45] transition-all"
               />
             </div>
             <div className="flex flex-col">
-              <label className="text-sm text-[#DCE2F0] mb-1">
-                Company Number (Optional)
-              </label>
+              <label className="text-sm text-white mb-1">Company Number (Optional)</label>
               <input
                 type="text"
                 placeholder="+971 321 4567543"
-                className="bg-transparent border border-[#DCE2F0]/40 rounded-md px-4 py-3 text-sm text-white focus:outline-none focus:border-[#5DA6A8]"
+                className="bg-transparent border-2 border-white rounded-none px-4 py-3 text-sm text-white placeholder:text-white/60 focus:outline-none focus:border-white focus:ring-2 focus:ring-[#5DA6A8] focus:ring-offset-2 focus:ring-offset-[#0A1C45] transition-all"
               />
             </div>
 
-            {/* Trade License (Full Width) */}
+            {/* Trade License */}
             <div className="flex flex-col md:col-span-2">
-              <label className="text-sm text-[#DCE2F0] mb-1">
-                Company Trade License
-              </label>
+              <label className="text-sm text-white mb-1">Company Trade License</label>
               <input
                 type="text"
                 placeholder="Lorem Ipsum"
-                className="bg-transparent border border-[#DCE2F0]/40 rounded-md px-4 py-3 text-sm text-white focus:outline-none focus:border-[#5DA6A8]"
+                className="bg-transparent border-2 border-white rounded-none px-4 py-3 text-sm text-white placeholder:text-white/60 focus:outline-none focus:border-white focus:ring-2 focus:ring-[#5DA6A8] focus:ring-offset-2 focus:ring-offset-[#0A1C45] transition-all"
               />
             </div>
 
             {/* Municipality Developer Registration */}
             <div className="flex flex-col md:col-span-2">
-              <label className="text-sm text-[#DCE2F0] mb-1">
-                Municipality Developer Registration Details
-              </label>
+              <label className="text-sm text-white mb-1">Municipality Developer Registration Details</label>
               <textarea
                 rows={4}
                 placeholder="Lorem ipsum dolor sit amet consectetur..."
-                className="bg-transparent border border-[#DCE2F0]/40 rounded-md px-4 py-3 text-sm text-white focus:outline-none focus:border-[#5DA6A8]"
+                className="bg-transparent border-2 border-white rounded-none px-4 py-3 text-sm text-white placeholder:text-white/60 focus:outline-none focus:border-white focus:ring-2 focus:ring-[#5DA6A8] focus:ring-offset-2 focus:ring-offset-[#0A1C45] transition-all resize-none"
               ></textarea>
             </div>
 
@@ -136,7 +125,7 @@ const GetInvolvedSection = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default GetInvolvedSection;
+export default GetInvolvedSection

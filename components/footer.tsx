@@ -5,8 +5,8 @@ import { Linkedin, Facebook } from "lucide-react";
 import React from "react";
 
 interface FooterProps {
-  logoSrc?: string; // optional logo
-  companyName?: string; // for alt text / aria
+  logoSrc?: string;
+  companyName?: string;
 }
 
 const Footer: React.FC<FooterProps> = ({
@@ -15,14 +15,14 @@ const Footer: React.FC<FooterProps> = ({
 }) => {
   return (
     <footer className="w-full bg-white text-[#0A1C45] font-[Tahoma]">
-      {/* Top */}
-      <div className="max-w-7xl mx-auto px-6 sm:px-10 md:px-12 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-12">
-          {/* Left: Logo + blurb */}
-          <div className="md:col-span-5">
-            <div className="h-10 relative w-[190px]">
+      {/* Main container */}
+      <div className="max-w-[1200px] mx-auto px-6 sm:px-10 md:px-12 py-16">
+        <div className="flex flex-col md:flex-row justify-between gap-16">
+          {/* Left: Logo + contact info (wider section) */}
+          <div className="md:w-[45%] mr-10">
+            <div className="relative h-10 w-[190px]">
               <Image
-                src={"/images/AwqafCapitalLogo.png"}
+                src={logoSrc || "/images/AwqafCapitalLogo.png"}
                 alt={`${companyName} logo`}
                 fill
                 className="object-contain"
@@ -30,18 +30,19 @@ const Footer: React.FC<FooterProps> = ({
               />
             </div>
 
-            <p className="mt-6 text-sm leading-relaxed text-slate-600 max-w-md">
-              Lorem ipsum dolor sit amet consectetur. Sapien arcu malesuada
-              purus arcu. Neque mi arcu nunc velit.
+            <p className="mt-6 text-sm leading-relaxed text-slate-600 max-w-sm">
+              General Authority of Islamic Affairs,
               <br />
-              800 242 6237 (Toll Free UAE)
+              Endowments and Zakat Building - Bani Yas East
               <br />
-              contact@dac.ae
+              8008222
+              <br />
+              info@awqaf.gov.ae
             </p>
           </div>
 
           {/* Middle: Useful links */}
-          <div className="md:col-span-4">
+          <div className="md:w-[30%]">
             <h4 className="text-sm tracking-wide text-slate-500 font-semibold uppercase">
               Useful Links
             </h4>
@@ -69,8 +70,8 @@ const Footer: React.FC<FooterProps> = ({
             </ul>
           </div>
 
-          {/* Right: Social */}
-          <div className="md:col-span-3">
+          {/* Right: Social Media */}
+          <div className="md:w-[25%]">
             <h4 className="text-sm tracking-wide text-slate-500 font-semibold uppercase">
               Social Media
             </h4>
@@ -89,7 +90,6 @@ const Footer: React.FC<FooterProps> = ({
               >
                 <Facebook className="h-6 w-6" />
               </a>
-              {/* X (Twitter) — custom SVG for the X glyph */}
               <a
                 href="#"
                 aria-label="X"
@@ -107,14 +107,14 @@ const Footer: React.FC<FooterProps> = ({
           </div>
         </div>
 
-        {/* Bottom row */}
+        {/* Divider and bottom links */}
         <div className="mt-12 border-t border-slate-200 pt-6">
           <div className="flex flex-wrap items-center justify-center gap-8 text-sm text-slate-600">
             <a href="#sitemap" className="hover:text-slate-800">
               SITEMAP
             </a>
             <a href="#terms" className="hover:text-slate-800">
-              TERMS &amp; CONDITIONS
+              TERMS & CONDITIONS
             </a>
             <a href="#privacy" className="hover:text-slate-800">
               PRIVACY POLICY
