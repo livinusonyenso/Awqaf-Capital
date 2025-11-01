@@ -117,7 +117,21 @@
 
 @font-face {
   font-family: "Tahoma";
-  src: url("/fonts/WF-000011-000126-000143-ed5c03702fb5bdd73b1ef9178a5ab5fd.otf")
+  src: url("/fonts/WF-000011-000126-000136-d52dd00ec01eba5d46d1a4efe03e8176.otf")
+      format("opentype"),
+    url("/fonts/WF-000011-000126-000137-86e07cecd27e51b8c594f67962af522c.otf")
+      format("opentype"),
+    url("/fonts/WF-000011-000126-000138-05fae43d1294b268224b82fdad573c3e.otf")
+      format("opentype"),
+    url("/fonts/WF-000011-000126-000139-8af8a4de6aeefc22e7452a6a59e179c5.otf")
+      format("opentype"),
+    url("/fonts/WF-000011-000126-000140-16ead8bb83a8a11c2b92b5c2b719a9d8.otf")
+      format("opentype"),
+    url("/fonts/WF-000011-000126-000141-fb589d8c9b92edb4cb02c89c7d34482c.otf")
+      format("opentype"),
+    url("/fonts/WF-000011-000126-000142-4b8155fe06a833d9ddb75fc6bd60361c.otf")
+      format("opentype"),
+    url("/fonts/WF-000011-000126-000143-ed5c03702fb5bdd73b1ef9178a5ab5fd.otf")
       format("opentype"),
     url("/fonts/WF-000011-000126-000144-98d997ca2ef4c3db238180ac269a12aa.otf")
       format("opentype");

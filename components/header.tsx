@@ -1,4 +1,3 @@
-
 "use client";
 import Image from "next/image";
 import Link from "next/link";
@@ -78,17 +77,17 @@ export default function Header() {
             {/* Hamburger / X */}
             <span className="relative block h-5 w-7">
               <span
-                className={`absolute left-0 top-0 h-[2px] w-7 bg-[#0F3558] transition-transform duration-300 ${
+                className={`absolute left-0 top-0 h-0.5 w-7 bg-[#0F3558] transition-transform duration-300 ${
                   open ? "translate-y-2.5 rotate-45" : ""
                 }`}
               />
               <span
-                className={`absolute left-0 top-2.5 h-[2px] w-7 bg-[#0F3558] transition-opacity duration-300 ${
+                className={`absolute left-0 top-2.5 h-0.5 w-7 bg-[#0F3558] transition-opacity duration-300 ${
                   open ? "opacity-0" : "opacity-100"
                 }`}
               />
               <span
-                className={`absolute left-0 top-5 h-[2px] w-7 bg-[#0F3558] transition-transform duration-300 ${
+                className={`absolute left-0 top-5 h-0.5 w-7 bg-[#0F3558] transition-transform duration-300 ${
                   open ? "-translate-y-2.5 -rotate-45" : ""
                 }`}
               />

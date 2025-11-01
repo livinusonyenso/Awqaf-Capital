@@ -1,9 +1,8 @@
 "use client";
 
-import Image from "next/image";
 import React from "react";
-import ValuesGrid from "./ourValueGrid";
 import SectionHeader from "./sectionHeader";
+import GridFour from "./GridFour";
 
 interface Opportunity {
   title: string;
@@ -47,9 +46,8 @@ const InvestorOpportunities: React.FC<InvestorOpportunitiesProps> = ({
     <>
       <SectionHeader title="Investor Opportunities" className="" />
       <section className="w-full bg-[#F9FAFB] font-[Tahoma]">
-        <ValuesGrid
+        <GridFour
           items={opportunities}
-          gridCol="4"
           className={"bg-white"}
           textColor={"black"}
         />

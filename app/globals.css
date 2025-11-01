@@ -628,7 +628,7 @@ label {
   opacity: 0.9;
 }
 
-input,
+/* input,
 textarea {
   background: #0a1730;
   border: 1px solid rgba(255, 255, 255, 0.12);
@@ -637,7 +637,7 @@ textarea {
   color: #fff;
   outline: none;
   font-family: inherit;
-}
+} */
 
 input::placeholder,
 textarea::placeholder {

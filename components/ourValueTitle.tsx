@@ -1,11 +1,11 @@
 "use client";
 import React from "react";
-import ValuesGrid from "./ourValueGrid";
+import GridFive from "./GridFive";
 
 export default function OurValues() {
   return (
     <>
-      <section className="bg-[#B29C78] text-white py-16 sm:py-10 lg:py-20 px-14">
+      <section className="bg-[#B29C78] text-white py-16 sm:py-10 lg:py-20 px-4 lg:px-14 md:px-14 ">
         <div className="mx-auto">
           <div className="max-w-3xl">
             <h2 className="text-3xl sm:text-4xl font-semibold mb-6">
@@ -21,7 +21,7 @@ export default function OurValues() {
           </div>
         </div>
       </section>
-      <ValuesGrid gridCol="5" />
+      <GridFive />
     </>
   );
 }
