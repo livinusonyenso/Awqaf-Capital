@@ -1,4 +1,5 @@
 // components/ValuesGrid.tsx
+"use client";
 import Image from "next/image";
 
 type ValueItem = {

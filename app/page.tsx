@@ -13,18 +13,25 @@ export default function Home() {
   return (
     <>
       <HeroCarousel />
-      <TitleComponent />
-      <MissionVision />
-      <OurValues />
+      <section id="about" className="scroll-mt-20">
+        <TitleComponent />
+        <MissionVision />
+      </section>
+      <section id="values" className="scroll-mt-20">
+        <OurValues />
+      </section>
       <QuoteBlock />
       <LeadSection />
-      <ServicesSection />
+      <section id="services" className="scroll-mt-20">
+        <ServicesSection />
+      </section>
       <InnovationSection />
-      {/* <Hero />
-      <About />*/}
-      {/* <Services />  */}
-      <Opportunities />
-      <ContactForm />
+      <section id="opportunities" className="scroll-mt-20">
+        <Opportunities />
+      </section>
+      <section id="contact" className="scroll-mt-20">
+        <ContactForm />
+      </section>
     </>
   );
 }

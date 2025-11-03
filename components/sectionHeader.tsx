@@ -1,3 +1,6 @@
+"use client";
+
+import React from "react";
 type SectionHeaderProps = {
   title?: string;
   className?: string;

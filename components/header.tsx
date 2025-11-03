@@ -35,32 +35,32 @@ export default function Header() {
           <nav className="hidden md:flex items-center space-x-8 text-[15px] font-medium text-gray-700">
             <Link
               href="#about"
-              className="hover:text-[#0F3558] transition-colors"
+              className="hover:text-[#0F3558] transition-colors cursor-pointer"
             >
               About
             </Link>
             <Link
               href="#values"
-              className="hover:text-[#0F3558] transition-colors"
+              className="hover:text-[#0F3558] transition-colors cursor-pointer"
             >
               Our Values
             </Link>
             <Link
               href="#services"
-              className="hover:text-[#0F3558] transition-colors"
+              className="hover:text-[#0F3558] transition-colors cursor-pointer"
             >
               Services
             </Link>
             <Link
               href="#opportunities"
-              className="hover:text-[#0F3558] transition-colors"
+              className="hover:text-[#0F3558] transition-colors cursor-pointer"
             >
               Opportunities
             </Link>
-            <div className="hidden md:block">
+            <div className="hidden md:block cursor-pointer">
               <Link
                 href="#contact"
-                className="border border-[#25686E] text-[#25686E] px-6 py-4 text-sm font-medium hover:bg-[#0F3558] hover:text-white transition-all"
+                className="border border-[#25686E] text-[#25686E] px-6 py-4 text-sm font-medium hover:bg-[#0F3558] hover:text-white transition-all "
               >
                 Get In Touch
               </Link>

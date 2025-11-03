@@ -57,7 +57,7 @@ const Footer: React.FC<FooterProps> = ({
                 </a>
               </li>
               <li>
-                <a href="#news" className="hover:text-[#0A1C45]/80">
+                <a href="#" className="hover:text-[#0A1C45]/80">
                   News and Events
                 </a>
               </li>
@@ -145,13 +145,22 @@ const Footer: React.FC<FooterProps> = ({
         {/* Bottom row */}
         <div className="mt-12 border-t border-slate-200 pt-6">
           <div className="flex flex-wrap items-center justify-center gap-8 text-sm text-slate-600">
-            <a href="#sitemap" className="hover:text-slate-800 text-[#505050] font-bold">
+            <a
+              href="#sitemap"
+              className="hover:text-slate-800 text-[#505050] font-bold"
+            >
               SITEMAP
             </a>
-            <a href="#terms" className="hover:text-slate-800 text-[#505050] font-bold">
+            <a
+              href="#terms"
+              className="hover:text-slate-800 text-[#505050] font-bold"
+            >
               TERMS &amp; CONDITIONS
             </a>
-            <a href="#privacy" className="hover:text-slate-800 text-[#505050] font-bold">
+            <a
+              href="#privacy"
+              className="hover:text-slate-800 text-[#505050] font-bold"
+            >
               PRIVACY POLICY
             </a>
           </div>

@@ -1,4 +1,5 @@
-// components/ValuesGrid.tsx
+"use client";
+
 import Image from "next/image";
 
 type ValueItem = {
@@ -27,7 +28,7 @@ export default function GridFour({
           className={`grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-0 overflow-hidden rounded`}
         >
           {items.map((item, idx) => (
-            <div key={idx}>
+            <div key={idx} className="border-r-[0.5px] border-r-[#BEB8B0]">
               <div className="relative">
                 <Image
                   src={item.imageUrl}

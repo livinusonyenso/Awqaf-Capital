@@ -4,6 +4,7 @@ import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 import React from "react";
 import SectionHeader from "./sectionHeader";
+import Link from "next/link";
 
 interface ServicesSectionProps {
   leftImageUrl?: string;
@@ -22,7 +23,7 @@ const ServicesSection: React.FC<ServicesSectionProps> = ({
         {/* Two Full-Width Columns */}
         <div className="flex flex-col md:flex-row w-full ">
           {/* LEFT SERVICE */}
-          <div className="flex-1 flex flex-col justify-between border-r border-[#BEB8B0] ">
+          <div className="flex-1 flex flex-col border-r border-[#BEB8B0] ">
             {/* Image — FULL WIDTH */}
             <div className="relative w-full h-[360px] md:h-[500px]">
               <Image
@@ -35,7 +36,7 @@ const ServicesSection: React.FC<ServicesSectionProps> = ({
             </div>
 
             {/* Text Content */}
-            <div className="max-w-7xl mx-auto px-6 sm:px-10 md:px-12 mt-8 md:mt-10 space-y-4">
+            <div className="max-w-7xl mx-auto px-6 sm:px-10 md:px-12 mt-8 md:mt-10 space-y-4  flex flex-col justify-between gap-6 flex-1  ">
               <h3 className="text-2xl md:text-[1.8rem] font-semibold text-[#25686E]">
                 Property management services
               </h3>
@@ -47,7 +48,10 @@ const ServicesSection: React.FC<ServicesSectionProps> = ({
                 and operating expenses management.
               </p>
 
-              <button className="group inline-flex items-center gap-2 border border-[#25686E] text-[#25686E] px-6 py-3  font-medium transition-all hover:gap-3 mt-auto mb-14">
+              <Link
+                className="group inline-flex items-center gap-2 border border-[#25686E] text-[#25686E] px-6 py-3  font-medium transition-all hover:gap-3 mt-auto mb-14 w-max "
+                href={"#contact"}
+              >
                 Register Now
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -61,16 +65,12 @@ const ServicesSection: React.FC<ServicesSectionProps> = ({
                     fill="#25686E"
                   />
                 </svg>
-                {/* <ArrowRight
-                  className="w-4 h-4 transition-transform group-hover:translate-x-1"
-                  strokeWidth={2.5}
-                /> */}
-              </button>
+              </Link>
             </div>
           </div>
 
           {/* RIGHT SERVICE */}
-          <div className="flex-1 flex flex-col justify-between">
+          <div className="flex-1 flex flex-col">
             {/* Image — FULL WIDTH */}
             <div className="relative w-full h-[360px] md:h-[500px]">
               <Image
@@ -83,7 +83,7 @@ const ServicesSection: React.FC<ServicesSectionProps> = ({
             </div>
 
             {/* Text Content */}
-            <div className="max-w-7xl mx-auto px-6 sm:px-10 md:px-12 mt-8 md:mt-10 space-y-4">
+            <div className="max-w-7xl mx-auto px-6 sm:px-10 md:px-12 mt-8 md:mt-10 space-y-4 flex flex-col justify-between gap-6 flex-1">
               <h3 className="text-2xl md:text-[1.8rem] font-semibold text-[#25686E]">
                 Development management services
               </h3>
@@ -94,7 +94,10 @@ const ServicesSection: React.FC<ServicesSectionProps> = ({
                 contractor selection, and construction management.
               </p>
 
-              <button className="group inline-flex items-center gap-2 border border-[#25686E] text-[#25686E] px-6 py-3  font-medium transition-all hover:gap-3 mt-auto mb-14 ">
+              <Link
+                className="group inline-flex items-center gap-2 border border-[#25686E] text-[#25686E] px-6 py-3  font-medium transition-all hover:gap-3 mt-auto mb-14 w-max "
+                href={"#contact"}
+              >
                 Register Now
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -108,7 +111,7 @@ const ServicesSection: React.FC<ServicesSectionProps> = ({
                     fill="#25686E"
                   />
                 </svg>
-              </button>
+              </Link>
             </div>
           </div>
         </div>

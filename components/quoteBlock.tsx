@@ -1,4 +1,5 @@
 // components/QuoteBlock.tsx
+"use client";
 import Image from "next/image";
 
 type QuoteBlockProps = {
@@ -36,10 +37,10 @@ export default function QuoteBlock({
 
           {/* Right: Quote + Author */}
           <div className="max-w-3xl">
-            <blockquote className="text-lg sm:text-xl md:text-[22px] leading-8 md:leading-9 text-slate-600">
-              <span className="font-medium text-slate-700">“</span>
+            <blockquote className="text-lg sm:text-xl md:text-[22px] leading-8 md:leading-9 text-slate-700 font-bold">
+              <span className="font-bold text-slate-700 ">“</span>
               {quote}
-              <span className="font-medium text-slate-700">”</span>
+              <span className="font-bold text-slate-700">”</span>
             </blockquote>
 
             <div className="mt-6">
