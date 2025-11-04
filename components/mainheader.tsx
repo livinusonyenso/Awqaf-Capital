@@ -155,10 +155,9 @@ export default function HeroCarousel() {
           {/* Overlay split into 2 halves */}
           <div className="absolute inset-0 grid grid-cols-1 md:grid-cols-2">
             {/* Left half: empty overlay for layout balance */}
-            <div className="hidden md:block"></div>
 
             {/* Right half: Text content */}
-            <div className="flex flex-col justify-center text-white px-4 lg:px-0 md:px-0">
+            <div className="flex flex-col justify-center text-white px-4 lg:px-14 md:px-14">
               <h1 className="text-3xl md:text-5xl font-semibold leading-tight mb-4">
                 {slides[current].title}
               </h1>
@@ -166,6 +165,7 @@ export default function HeroCarousel() {
                 {slides[current].desc}
               </p>
             </div>
+            <div className="hidden md:block"></div>
           </div>
         </motion.div>
       </AnimatePresence>
