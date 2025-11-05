@@ -37,17 +37,24 @@ import Image from "next/image";
 
 export default function LeadSection() {
   return (
-    <section className="relative h-[640px] overflow-hidden flex items-center">
+    <section
+      className="relative min-h-[640px] flex items-center"
+      style={{
+        backgroundImage: "url(/images/invest-bg.png)",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
       {/* Background image */}
-      <div className="absolute inset-0">
+      {/* <div className="absolute inset-0">
         <Image
-          src="/images/invest-bg.png" // place your image in /public/images/
+          src="/images/invest-bg.png" 
           alt="Background pattern"
           fill
           className="object-cover"
           priority
         />
-      </div>
+      </div> */}
 
       {/* Foreground content */}
       <div className="relative z-10 mx-auto w-full px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between">
@@ -64,14 +71,14 @@ export default function LeadSection() {
 
         {/* Right: Person Image */}
         <div className="relative mt-10 md:mt-0 w-full max-w-sm md:max-w-md lg:max-w-lg">
-          {/* <Image
+          <Image
             src="/images/lead.png"
             alt="Professional in traditional attire"
             width={500}
             height={640}
             className="object-contain"
             priority
-          /> */}
+          />
         </div>
       </div>
     </section>

@@ -99,25 +99,18 @@ import { motion } from "framer-motion";
 const slides = [
   {
     image: "/images/banner-1.png",
-    title: "Empowering Endowment Growth For A Sustainable Future",
+    title: "Empowering Endowment Growth for a Sustainable Future",
     desc: "Awqaf Capital is dedicated to advancing the endowment sector through innovative investment management, real estate development, and strategic partnerships that serve Government, Donors, and the Private Sector.",
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80",
-    title: "Empowering Endowment Growth For A Sustainable Future",
-    desc: "Awqaf Capital is dedicated to advancing the endowment sector through innovative investment management, real estate development, and strategic partnerships that serve Government, Donors, and the Private Sector.",
+    image: "/images/banner-2.png",
+    title: "Creating new pathways for capital with purpose.",
+    desc: "At Awqaf Capital, we deploy financial strength across diverse asset classes, empowering investors and supporting Abu Dhabi's role as the “Capital of Capital.”",
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80",
-    title: "Innovating for Tomorrow's Endowment Solutions",
-    desc: "Building sustainable frameworks and innovative investment opportunities to empower future generations.",
-  },
-  {
-    image: "/images/banner-1.png",
-    title: "Empowering Endowment Growth For A Sustainable Future",
-    desc: "Awqaf Capital is dedicated to advancing the endowment sector through innovative investment management, real estate development, and strategic partnerships that serve Government, Donors, and the Private Sector.",
+    image: "/images/banner-3.png",
+    title: "Investing in Abu Dhabi's global financial future.",
+    desc: "As a cornerstone of the emirate's financial ecosystem, Awqaf Capital is leveraging Abu Dhabi's position as a bridge between global markets to deliver value and impact.",
   },
 ];
 
