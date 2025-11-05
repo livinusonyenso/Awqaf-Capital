@@ -37,15 +37,15 @@ export default function QuoteBlock({
 
           {/* Right: Quote + Author */}
           <div className="max-w-3xl">
-            <blockquote className="text-lg sm:text-xl md:text-[22px] leading-8 md:leading-9 text-slate-700 font-bold">
-              <span className="font-bold text-slate-700 ">“</span>
+            <blockquote className="text-[20px] lg:text-[24px] leading-8 md:leading-9 text-[#757575] font-bold">
+              <span className="font-bold text-[#757575] ">“</span>
               {quote}
-              <span className="font-bold text-slate-700">”</span>
+              <span className="font-bold text-[#757575]">”</span>
             </blockquote>
 
-            <div className="mt-6">
-              <p className="text-sm font-semibold text-slate-800">{name}</p>
-              <p className="text-sm text-slate-500">{title}</p>
+            <div className="mt-15">
+              <p className="text-[16px] font-bold text-[#757575]">{name}</p>
+              <p className="text-[16px] text-[#757575]">{title}</p>
             </div>
           </div>
         </div>

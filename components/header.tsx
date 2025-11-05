@@ -15,13 +15,13 @@ export default function Header() {
 
   return (
     <header className="bg-white border-b border-gray-100 sticky top-0 z-50">
-      <div className="mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
+      <div className="mx-auto px-4 sm:px-6 lg:px-15 py-4 sm:py-6 lg:py-8">
+        <div className="flex items-center justify-between">
           {/* Left: Logo */}
           <div className="shrink-0">
             <Link href="/" aria-label="Home">
               <Image
-                src="/images/AwqafCapitalLogo.png"
+                src="/images/AwqafCapitalLogo.svg"
                 alt="Awqaf Capital Logo"
                 width={150}
                 height={40}

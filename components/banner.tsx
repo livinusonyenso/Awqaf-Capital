@@ -18,7 +18,7 @@ const ServicesSection: React.FC<ServicesSectionProps> = ({
   return (
     <>
       {/* Section Title */}
-      <SectionHeader title="Service" />
+      <SectionHeader title="Services" />
       <section className="w-full bg-white font-[Tahoma] ">
         {/* Two Full-Width Columns */}
         <div className="flex flex-col md:flex-row w-full ">
@@ -37,10 +37,10 @@ const ServicesSection: React.FC<ServicesSectionProps> = ({
 
             {/* Text Content */}
             <div className="max-w-7xl mx-auto px-6 sm:px-10 md:px-12 mt-8 md:mt-10 space-y-4  flex flex-col justify-between gap-6 flex-1  ">
-              <h3 className="text-2xl md:text-[1.8rem] font-semibold text-[#25686E]">
+              <h3 className="text-2xl md:text-[1.8rem] font-semibold text-[#25537F]">
                 Property management services
               </h3>
-              <p className="text-[#475569] text-base md:text-[17px] leading-relaxed">
+              <p className="text-[#757575] text-base md:text-[17px] leading-relaxed">
                 Our property management services provide tailored solutions for
                 your asset with the aim of enhancing asset value. We help our
                 clients manage the rental process, assess rental values,
@@ -84,10 +84,10 @@ const ServicesSection: React.FC<ServicesSectionProps> = ({
 
             {/* Text Content */}
             <div className="max-w-7xl mx-auto px-6 sm:px-10 md:px-12 mt-8 md:mt-10 space-y-4 flex flex-col justify-between gap-6 flex-1">
-              <h3 className="text-2xl md:text-[1.8rem] font-semibold text-[#25686E]">
+              <h3 className="text-2xl md:text-[1.8rem] font-semibold text-[#25537F]">
                 Development management services
               </h3>
-              <p className="text-[#475569] text-base md:text-[17px] leading-relaxed">
+              <p className="text-[#757575] text-base md:text-[17px] leading-relaxed">
                 We provide consultancy advice on high and best solutions for
                 your land bank. After a recommendation is provided, we deliver
                 end-to-end solutions starting with design development,

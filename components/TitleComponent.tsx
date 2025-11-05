@@ -15,11 +15,11 @@ export default function TitleComponent({
 }: AboutSplitProps) {
   return (
     <section className="bg-white">
-      <div className="mx-auto py-16 sm:py-10  lg:py-20 px-4 lg:px-14 md:px-14 ">
+      <div className="mx-auto py-16 sm:py-10  lg:py-20 px-4 lg:px-15">
         <div className="flex justify-between flex-wrap lg:flex-nowrap md:flex-wrap sm:flex-wrap gap-6 lg:gap-0 ">
           {/* Left: Title */}
           <div className="flex-auto lg:flex-1 md:flex-1  ">
-            <h2 className="text-3xl font-semibold tracking-tight text-[#1A2553] sm:text-4xl md:text-5xl">
+            <h2 className="text-[32px] font-bold tracking-tight text-[#1A2553] md:text-[40px]">
               {title || "About Awqaf Capital"}
             </h2>
           </div>
