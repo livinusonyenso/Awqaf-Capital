@@ -18,7 +18,7 @@ const ServicesSection: React.FC<ServicesSectionProps> = ({
   return (
     <>
       {/* Section Title */}
-      <SectionHeader title="Services" />
+      <SectionHeader title="خدماتنا " />
       <section className="w-full bg-white font-[Tahoma] ">
         {/* Two Full-Width Columns */}
         <div className="flex flex-col md:flex-row w-full ">
@@ -28,7 +28,7 @@ const ServicesSection: React.FC<ServicesSectionProps> = ({
             <div className="relative w-full h-[360px] md:h-[500px]">
               <Image
                 src={leftImageUrl}
-                alt="Property Management Services"
+                alt="إدارة الممتلكات"
                 fill
                 className="object-cover object-center"
                 priority
@@ -38,21 +38,21 @@ const ServicesSection: React.FC<ServicesSectionProps> = ({
             {/* Text Content */}
             <div className="max-w-7xl mx-auto px-6 sm:px-10 md:px-12 mt-8 md:mt-10 space-y-4  flex flex-col justify-between gap-6 flex-1  ">
               <h3 className="text-2xl md:text-[1.8rem] font-semibold text-[#25537F]">
-                Property management services
+                إدارة الممتلكات
               </h3>
               <p className="text-[#757575] text-base md:text-[17px] leading-relaxed">
-                Our property management services provide tailored solutions for
-                your asset with the aim of enhancing asset value. We help our
-                clients manage the rental process, assess rental values,
-                maintain their assets, and oversee lease lifecycle management
-                and operating expenses management.
+                نُقدّم حلولاً مصمَّمة خصيصاً لإدارة أصولكم بما يهدف إلى تعزيز
+                قيمة الأصول وتنميتها. نُساعد عملاءنا في إدارة عمليات التأجير،
+                وتقييم القيم الإيجارية، وصيانة الأصول والمحافظة عليها، إضافةً
+                إلى الإشراف على دورة الإيجار وإدارة المصاريف التشغيلية لضمان
+                الكفاءة والاستدامة في إدارة العقارات
               </p>
 
               <Link
                 className="group inline-flex items-center gap-2 border border-[#25686E] text-[#25686E] px-6 py-3  font-medium transition-all hover:gap-3 mt-auto mb-14 w-max "
                 href={"#contact"}
               >
-                Register Now
+                سجل الآن
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="20"
@@ -75,7 +75,7 @@ const ServicesSection: React.FC<ServicesSectionProps> = ({
             <div className="relative w-full h-[360px] md:h-[500px]">
               <Image
                 src={rightImageUrl}
-                alt="Development Management Services"
+                alt="إدارة التطوير العقاري"
                 fill
                 className="object-cover object-center"
                 priority
@@ -85,20 +85,20 @@ const ServicesSection: React.FC<ServicesSectionProps> = ({
             {/* Text Content */}
             <div className="max-w-7xl mx-auto px-6 sm:px-10 md:px-12 mt-8 md:mt-10 space-y-4 flex flex-col justify-between gap-6 flex-1">
               <h3 className="text-2xl md:text-[1.8rem] font-semibold text-[#25537F]">
-                Development management services
+                إدارة التطوير العقاري
               </h3>
               <p className="text-[#757575] text-base md:text-[17px] leading-relaxed">
-                We provide consultancy advice on high and best solutions for
-                your land bank. After a recommendation is provided, we deliver
-                end-to-end solutions starting with design development,
-                contractor selection, and construction management.
+                نُقدّم استشارات متخصّصة لتحديد أفضل الحلول وأمثل الاستخدامات
+                لمحفظتكم العقارية، ونوفّر حلولاً متكاملة تشمل تطوير التصاميم،
+                واختيار المقاولين، وإدارة عمليات البناء لضمان تنفيذ المشاريع
+                بأعلى معايير الجودة والكفاءة
               </p>
 
               <Link
                 className="group inline-flex items-center gap-2 border border-[#25686E] text-[#25686E] px-6 py-3  font-medium transition-all hover:gap-3 mt-auto mb-14 w-max "
                 href={"#contact"}
               >
-                Register Now
+                سجل الآن
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="20"

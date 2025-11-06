@@ -3,8 +3,6 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
-import Header from "@/components/header";
-import Footer from "@/components/footer";
 import DirectionWrapper from "@/components/DirectionWrapper";
 
 const _geist = Geist({ subsets: ["latin"] });
@@ -25,9 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`font-tahoma antialiased`}>
-        <Header />
         <DirectionWrapper>{children}</DirectionWrapper>
-        <Footer />
         <Analytics />
       </body>
     </html>

@@ -22,9 +22,8 @@ const GetInvolvedSection = () => {
         <div className="md:w-1/2 space-y-6">
           <h2 className="text-3xl md:text-4xl font-bold">Get Involved</h2>
           <p className="text-white text-base md:text-lg leading-relaxed">
-            We welcome collaboration with donors, investors, and institutions
-            that share our vision for sustainable development and community
-            empowerment. Contact our team to explore partnership opportunities.
+         نرحّب بالتعاون مع المتبرّعين والمستثمرين والمؤسّسات التي تشاركنا رؤيتنا في التنمية المستدامة وتمكين المجتمع. 
+تواصلوا مع فريقنا لاستكشاف فرص الشراكة والتعاون نحو تحقيق أثرٍ مستدام يعود بالنفع على الأجيال القادمة.
           </p>
         </div>
 
@@ -33,7 +32,7 @@ const GetInvolvedSection = () => {
           <form className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {/* Full Name / Phone Number */}
             <div className="flex flex-col">
-              <label className="text-sm text-white mb-1">Full Name</label>
+              <label className="text-sm text-white mb-1">الاسم الكامل</label>
               <input
                 type="text"
                 placeholder="Blue Acer Group of Companies"
@@ -41,7 +40,7 @@ const GetInvolvedSection = () => {
               />
             </div>
             <div className="flex flex-col">
-              <label className="text-sm text-white mb-1">Phone Number</label>
+              <label className="text-sm text-white mb-1">رقم الهاتف</label>
               <input
                 type="text"
                 placeholder="+971 321 4567543"
@@ -51,7 +50,7 @@ const GetInvolvedSection = () => {
 
             {/* Email / Company Name */}
             <div className="flex flex-col">
-              <label className="text-sm text-white mb-1">Email Address</label>
+              <label className="text-sm text-white mb-1">البريد الإلكتروني</label>
               <input
                 type="email"
                 placeholder="example@email.com"
@@ -59,7 +58,7 @@ const GetInvolvedSection = () => {
               />
             </div>
             <div className="flex flex-col">
-              <label className="text-sm text-white mb-1">Company Name</label>
+              <label className="text-sm text-white mb-1">اسم الشركة (الاختياري)</label>
               <input
                 type="text"
                 placeholder="Blue Acer Group of Companies"
@@ -70,7 +69,7 @@ const GetInvolvedSection = () => {
             {/* Address / Company Number */}
             <div className="flex flex-col">
               <label className="text-sm text-white mb-1">
-                Company Address (Emirate, City, Address)
+                عنوان الشركة (الإمارة، المدينة، العنوان
               </label>
               <input
                 type="text"
@@ -80,7 +79,7 @@ const GetInvolvedSection = () => {
             </div>
             <div className="flex flex-col">
               <label className="text-sm text-white mb-1">
-                Company Number (Optional)
+                رقم الشركة (اختياري)
               </label>
               <input
                 type="text"
@@ -92,7 +91,7 @@ const GetInvolvedSection = () => {
             {/* Trade License (Full Width) */}
             <div className="flex flex-col md:col-span-2">
               <label className="text-sm text-white mb-1">
-                Company Trade License
+                تراخيص الشركة
               </label>
               <input
                 type="text"
@@ -104,7 +103,7 @@ const GetInvolvedSection = () => {
             {/* Municipality Developer Registration */}
             <div className="flex flex-col md:col-span-2">
               <label className="text-sm text-white mb-1">
-                Municipality developer registration details
+               التسجيل في البلدية/المطور
               </label>
               <textarea
                 rows={4}

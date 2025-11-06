@@ -25,10 +25,10 @@ const InnovationSection: React.FC<InnovationSectionProps> = ({
       <div className="relative z-10 h-full flex items-center px-4 lg:px-15">
         <div className="max-w-3xl text-white space-y-6">
           <h2 className="text-4xl sm:text-5xl md:text-5xl leading-snug">
-            Driving Abu Dhabi's financial future through{" "}
-            <span className="text-[#B29C78] underline underline-offset-4 decoration-[#B29C78]/60">
+           نُسهم في بناء مستقبل أبوظبي المالي… برؤية مبتكرة ونزاهة راسخة 
+            {/* <span className="text-[#B29C78] underline underline-offset-4 decoration-[#B29C78]/60">
               innovation and integrity.
-            </span>
+            </span> */}
           </h2>
         </div>
       </div>
