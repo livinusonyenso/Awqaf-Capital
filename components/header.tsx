@@ -51,12 +51,12 @@ export default function Header() {
             >
               Services
             </Link>
-            <Link
+            {/* <Link
               href="#opportunities"
               className="hover:text-[#0F3558] transition-colors cursor-pointer"
             >
               Opportunities
-            </Link>
+            </Link> */}
             <div className="hidden md:block cursor-pointer">
               <Link
                 href="#contact"
@@ -131,7 +131,7 @@ export default function Header() {
                 Services
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 href="#opportunities"
                 onClick={() => setOpen(false)}
@@ -139,7 +139,7 @@ export default function Header() {
               >
                 Opportunities
               </Link>
-            </li>
+            </li> */}
           </ul>
 
           {/* Full-width CTA (matches your mobile design) */}

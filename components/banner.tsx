@@ -37,7 +37,7 @@ const ServicesSection: React.FC<ServicesSectionProps> = ({
 
             {/* Text Content */}
             <div className="max-w-7xl mx-auto px-6 sm:px-10 md:px-12 mt-8 md:mt-10 space-y-4  flex flex-col justify-between gap-6 flex-1  ">
-              <h3 className="text-2xl md:text-[1.8rem] font-semibold text-[#25537F]">
+              <h3 className="text-2xl md:text-[1.8rem] font-bold text-[#25537F]">
                 Property management services
               </h3>
               <p className="text-[#757575] text-base md:text-[17px] leading-relaxed">
@@ -84,7 +84,7 @@ const ServicesSection: React.FC<ServicesSectionProps> = ({
 
             {/* Text Content */}
             <div className="max-w-7xl mx-auto px-6 sm:px-10 md:px-12 mt-8 md:mt-10 space-y-4 flex flex-col justify-between gap-6 flex-1">
-              <h3 className="text-2xl md:text-[1.8rem] font-semibold text-[#25537F]">
+              <h3 className="text-2xl md:text-[1.8rem] font-bold text-[#25537F]">
                 Development management services
               </h3>
               <p className="text-[#757575] text-base md:text-[17px] leading-relaxed">

@@ -26,9 +26,9 @@ export default function Home() {
         <ServicesSection />
       </section>
       <InnovationSection />
-      <section id="opportunities" className="scroll-mt-20">
+      {/* <section id="opportunities" className="scroll-mt-20">
         <Opportunities />
-      </section>
+      </section> */}
       <section id="contact" className="scroll-mt-20">
         <ContactForm />
       </section>

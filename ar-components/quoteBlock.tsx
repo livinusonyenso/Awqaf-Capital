@@ -21,7 +21,7 @@ export default function QuoteBlock({
 }: QuoteBlockProps) {
   return (
     <section className={`bg-white ${className}`}>
-      <div className="mx-auto py-16 sm:py-10 lg:py-40 px-4 lg:px-14">
+      <div className="mx-auto py-16 sm:py-10 lg:py-40 px-4 lg:px-15">
         <div className="flex items-center gap-14 flex-wrap flex-col ">
           {/* Left: Image */}
           <div className="relative aspect-square md:aspect-4/3 w-[300px] h-[300px] ">

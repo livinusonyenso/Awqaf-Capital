@@ -22,7 +22,7 @@ const InnovationSection: React.FC<InnovationSectionProps> = ({
       />
 
       {/* Text Content */}
-      <div className="relative z-10 h-full flex items-center px-6 sm:px-10 md:px-20">
+      <div className="relative z-10 h-full flex items-center px-4 lg:px-15">
         <div className="max-w-3xl text-white space-y-6">
           <h2 className="text-4xl sm:text-5xl md:text-5xl leading-snug">
             Driving Abu Dhabi's financial future through{" "}

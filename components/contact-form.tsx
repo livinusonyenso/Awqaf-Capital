@@ -4,7 +4,7 @@ import React from "react";
 
 const GetInvolvedSection = () => {
   return (
-    <section className="w-full bg-[#081443] text-white py-20 font-[Tahoma] relative overflow-hidden">
+    <section className="w-full bg-[#081443] text-white font-[Tahoma] relative overflow-hidden mx-auto mt-16 sm:mt-10  lg:mt-20 px-4 lg:px-15 py-4 lg:py-20">
       {/* Subtle background watermark pattern */}
       <div
         className="absolute bottom-0 left-0 w-full h-full"
@@ -17,7 +17,7 @@ const GetInvolvedSection = () => {
       />
 
       {/* Content Wrapper */}
-      <div className="relative  mx-auto flex flex-col md:flex-row gap-12 px-4 lg:px-15">
+      <div className="relative  mx-auto flex flex-col md:flex-row gap-12">
         {/* Left Column */}
         <div className="md:w-1/2 space-y-6">
           <h2 className="text-3xl md:text-4xl font-bold">Get Involved</h2>

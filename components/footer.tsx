@@ -16,7 +16,7 @@ const Footer: React.FC<FooterProps> = ({
   return (
     <footer className="w-full bg-white text-[#0A1C45] font-[Tahoma]">
       {/* Top */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-15 py-10">
+      <div className="px-4 sm:px-15 py-10">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12">
           {/* Left: Logo + blurb */}
           <div className="md:col-span-6">
@@ -87,7 +87,7 @@ const Footer: React.FC<FooterProps> = ({
 
             {/* Right: Social */}
             <div className="md:col-span-3">
-              <h4 className="text-sm tracking-wide text-[#505050]  font-bold uppercase">
+              {/* <h4 className="text-sm tracking-wide text-[#505050]  font-bold uppercase">
                 Social Media
               </h4>
               <div className="mt-4 flex items-center gap-5">
@@ -135,7 +135,7 @@ const Footer: React.FC<FooterProps> = ({
                     />
                   </svg>
                 </a>
-                {/* X (Twitter) — custom SVG for the X glyph */}
+                
                 <a
                   href="#"
                   aria-label="X"
@@ -154,11 +154,15 @@ const Footer: React.FC<FooterProps> = ({
                     />
                   </svg>
                 </a>
-              </div>
+              </div> */}
               <button
                 type="submit"
-                className="bg-[#3AA4AF] text-white px-6 py-4 hover:bg-[#6BB8B8] transition mt-14 flex gap-3.5 items-center "
+                className="bg-[#3AA4AF] text-white px-6 py-4 hover:bg-[#6BB8B8] transition  flex gap-3.5 items-center "
               >
+              {/* <button
+                type="submit"
+                className="bg-[#3AA4AF] text-white px-6 py-4 hover:bg-[#6BB8B8] transition mt-14 flex gap-3.5 items-center "
+              > */}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="20"
