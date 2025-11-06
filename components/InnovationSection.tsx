@@ -8,7 +8,7 @@ interface InnovationSectionProps {
 }
 
 const InnovationSection: React.FC<InnovationSectionProps> = ({
-  backgroundUrl = "/images/spiral.png",
+  backgroundUrl = "/images/spiral.svg",
 }) => {
   return (
     <section className="relative w-full h-[746px] md:h-[746px] overflow-hidden font-[Tahoma]">

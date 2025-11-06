@@ -57,12 +57,12 @@ export default function LeadSection() {
       </div> */}
 
       {/* Foreground content */}
-      <div className="relative z-10 mx-auto w-full px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between">
+      <div className="relative z-10 mx-auto w-full px-4 lg:px-15 flex flex-col md:flex-row items-center justify-between">
         {/* Left: Text */}
         <div className="max-w-lg text-white space-y-4 md:space-y-6">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold leading-tight">
             Investing in <br />
-            Abu <span className="text-[#4FB5B9]">
+            Abu <span className="text-[#4FB5B9] underline ">
               Dhabi&apos;s Future
             </span>, <br />
             Leading from Its Capital.
