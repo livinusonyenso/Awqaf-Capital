@@ -22,7 +22,7 @@ export default function QuoteBlock({
   return (
     <section className={`bg-white ${className}`}>
       <div className="mx-auto py-16 sm:py-10 lg:py-40 px-4 lg:px-14">
-        <div className="flex items-center gap-14 flex-wrap ">
+        <div className="flex items-center gap-14 flex-wrap flex-col ">
           {/* Left: Image */}
           <div className="relative aspect-square md:aspect-4/3 w-[300px] h-[300px] ">
             <Image
@@ -36,7 +36,7 @@ export default function QuoteBlock({
           </div>
 
           {/* Right: Quote + Author */}
-          <div className="max-w-3xl">
+          <div className="max-w-3xl flex flex-col justify-center items-center text-center ">
             <blockquote className="text-[20px] lg:text-[24px] leading-8 md:leading-9 text-[#757575] font-bold">
               <span className="font-bold text-[#757575] ">“</span>
               {quote}

@@ -14,22 +14,22 @@ const Values: React.FC<ValuesSectionProps> = ({
     {
       title: "Transparency",
       description:
-        "We uphold absolute openness and unwavering integrity in the stewardship of both endowments and minors’ funds.",
+        "We uphold absolute openness and unwavering integrity in the stewardship of both endowments and minors' funds.",
     },
     {
       title: "Responsibility",
       description:
-        "We fully commit to safeguarding and growing both endowments and minors’ funds.",
+        "We fully commit to safeguarding and growing both endowments and minors' funds.",
     },
     {
       title: "Unity",
       description:
-        "We bring together diverse partners from endowment donors to minors’ guardians around a shared purpose.",
+        "We bring together diverse partners from endowment donors to minors' guardians around a shared purpose.",
     },
     {
       title: "Stewardship",
       description:
-        "We safeguard and grow both endowments and minors’ funds with foresight to benefit present and future generations.",
+        "We safeguard and grow both endowments and minors' funds with foresight to benefit present and future generations.",
     },
     {
       title: "Trust",

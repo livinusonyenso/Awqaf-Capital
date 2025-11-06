@@ -70,7 +70,7 @@ export default function LeadSection() {
         </div>
 
         {/* Right: Person Image */}
-        <div className="relative mt-10 md:mt-0 w-full max-w-sm md:max-w-md lg:max-w-lg">
+        <div className="relative mt-10 md:mt-0 w-full max-w-sm md:max-w-md lg:max-w-lg pr-18">
           <Image
             src="/images/lead.png"
             alt="Professional in traditional attire"

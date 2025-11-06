@@ -22,7 +22,7 @@ const Footer: React.FC<FooterProps> = ({
           <div className="md:col-span-5">
             <div className="h-10 relative w-[190px]">
               <Image
-                src={"/images/AwqafCapitalLogo.png"}
+                src={"/images/AwqafCapitalLogo.svg"}
                 alt={`${companyName} logo`}
                 fill
                 className="object-contain"
@@ -30,39 +30,42 @@ const Footer: React.FC<FooterProps> = ({
               />
             </div>
 
-            <p className="mt-6 text-sm leading-relaxed text-slate-600 max-w-md">
-              Lorem ipsum dolor sit amet consectetur. Sapien arcu malesuada
-              purus arcu. Neque mi arcu nunc velit.
+            <p className="mt-15 text-sm leading-relaxed text-[#505050] font-medium max-w-md">
+              General Authority of Islamic Affairs,
               <br />
-              800 242 6237 (Toll Free UAE)
+              Endowments and Zakat Building - Bani
               <br />
-              contact@dac.ae
+              Yas East
+              <br />
+              8008222
+              <br />
+              info@awqaf.gov.ae
             </p>
           </div>
 
           {/* Middle: Useful links */}
           <div className="md:col-span-4">
-            <h4 className="text-sm tracking-wide text-slate-500 font-semibold uppercase">
+            <h4 className="text-sm tracking-wide text-[#505050]  font-bold uppercase">
               Useful Links
             </h4>
             <ul className="mt-4 space-y-3 text-[15px]">
               <li>
-                <a href="#about" className="hover:text-[#0A1C45]/80">
+                <a href="#about" className="hover:text-[#0A1C45]/80 text-[14px] text-[#505050] ">
                   About Awqaf
                 </a>
               </li>
               <li>
-                <a href="#opportunities" className="hover:text-[#0A1C45]/80">
+                <a href="#opportunities" className="hover:text-[#0A1C45]/80 text-[14px] text-[#505050] ">
                   Investment Opportunities
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#0A1C45]/80">
+                <a href="#" className="hover:text-[#0A1C45]/80 text-[14px] text-[#505050] ">
                   News and Events
                 </a>
               </li>
               <li>
-                <a href="#contact" className="hover:text-[#0A1C45]/80">
+                <a href="#contact" className="hover:text-[#0A1C45]/80 text-[14px] text-[#505050] ">
                   Get in Touch
                 </a>
               </li>
@@ -71,7 +74,7 @@ const Footer: React.FC<FooterProps> = ({
 
           {/* Right: Social */}
           <div className="md:col-span-3">
-            <h4 className="text-sm tracking-wide text-slate-500 font-semibold uppercase">
+            <h4 className="text-sm tracking-wide text-[#505050]  font-bold uppercase">
               Social Media
             </h4>
             <div className="mt-4 flex items-center gap-5">
@@ -168,7 +171,7 @@ const Footer: React.FC<FooterProps> = ({
         </div>
 
         {/* Bottom row */}
-        <div className="mt-12 border-t border-slate-200 pt-6">
+        <div className="mt-12  border-slate-200 pt-6">
           <div className="flex flex-wrap items-center justify-center gap-8 text-sm text-slate-600">
             <a
               href="#sitemap"
