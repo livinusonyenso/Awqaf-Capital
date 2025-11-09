@@ -51,12 +51,20 @@ export default function Header() {
             >
               خدماتنا
             </Link>
-            <Link
+            {/* <Link
               href="#opportunities"
               className="hover:text-[#0F3558] transition-colors cursor-pointer"
             >
               فرص الاستثمار
-            </Link>
+            </Link> */}
+            <div className="hidden md:block cursor-pointer">
+              <Link
+                href="/"
+                className="border border-[#25686E] text-[#25686E] px-6 py-4 text-sm font-bold hover:bg-[#0F3558] hover:text-white transition-all "
+              >
+                En
+              </Link>
+            </div>
             <div className="hidden md:block cursor-pointer">
               <Link
                 href="#contact"
@@ -131,7 +139,7 @@ export default function Header() {
                 خدماتنا
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 href="#opportunities"
                 onClick={() => setOpen(false)}
@@ -139,10 +147,19 @@ export default function Header() {
               >
                 فرص الاستثمار
               </Link>
-            </li>
+            </li> */}
           </ul>
 
           {/* Full-width CTA (matches your mobile design) */}
+          <div className="mt-5">
+            <Link
+              href="/"
+              onClick={() => setOpen(false)}
+              className="block w-full text-center border-2 border-[#2F6F79] text-[#2F6F79] py-3 rounded-sm font-semibold hover:bg-[#2F6F79] hover:text-white transition-colors"
+            >
+              EN
+            </Link>
+          </div>
           <div className="mt-5">
             <Link
               href="#contact"
@@ -160,7 +177,8 @@ export default function Header() {
         <button
           aria-hidden
           onClick={() => setOpen(false)}
-          className="fixed inset-0 bg-black/20 md:hidden"
+          className="fixed md:hidden"
+          // className="fixed inset-0 bg-black/20 md:hidden"
         />
       )}
     </header>

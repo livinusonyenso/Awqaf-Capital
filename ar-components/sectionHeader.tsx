@@ -7,7 +7,7 @@ type SectionHeaderProps = {
 };
 export default function SectionHeader({
   title,
-  className = " border-[#BEB8B0] lg:border-r lg:border-[#BEB8B0] md:border-r md:border-[#BEB8B0]",
+  className = " border-[#BEB8B0] lg:border-l lg:border-[#BEB8B0] md:border-l md:border-[#BEB8B0]",
 }: SectionHeaderProps) {
   return (
     <section className="px-4 lg:px-15">

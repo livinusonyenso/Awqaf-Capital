@@ -21,7 +21,39 @@ export default function OurValues() {
           </div>
         </div>
       </section>
-      <GridFive />
+      <GridFive items={defaultProps} />
     </>
   );
 }
+
+const defaultProps = [
+  {
+    title: "الشفافية",
+    description:
+      "نلتزم بالانفتاح المطلق والنزاهة الكاملة في إدارة الأوقاف وصناديق القاصرين.",
+    imageUrl: "/images/value-1.png",
+  },
+  {
+    title: "المسؤولية",
+    description: "نتحمّل الكاملة لحماية الأصول وتنميتها خدمة للمجتمع.",
+    imageUrl: "/images/value-2.png",
+  },
+  {
+    title: "الوحدة",
+    description:
+      "نوحّد جهود الشركاء المتنوّعين - من متبرّعين وحُكّام وأوصياء - نحو هدف مشترك.",
+    imageUrl: "/images/value-3.png",
+  },
+  {
+    title: "الرعاية",
+    description:
+      "نُضفي رؤية مستقبلية في حُسن العناية بالأوقاف ومصالح القاصرين لضمان استمرار المنافع.",
+    imageUrl: "/images/value-4.png",
+  },
+  {
+    title: "الثقة ",
+    description:
+      "نبني ثقة مستدامة من خلال السلوك الأخلاقي، والمعاملة الأمينة، والخدمة المتميّزة. ",
+    imageUrl: "/images/value-5.png",
+  },
+];

@@ -23,7 +23,7 @@ const ServicesSection: React.FC<ServicesSectionProps> = ({
         {/* Two Full-Width Columns */}
         <div className="flex flex-col md:flex-row w-full ">
           {/* LEFT SERVICE */}
-          <div className="flex-1 flex flex-col border-r border-[#BEB8B0] ">
+          <div className="flex-1 flex flex-col border-l border-[#BEB8B0] ">
             {/* Image — FULL WIDTH */}
             <div className="relative w-full h-[360px] md:h-[500px]">
               <Image

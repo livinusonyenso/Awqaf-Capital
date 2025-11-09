@@ -20,10 +20,12 @@ const GetInvolvedSection = () => {
       <div className="relative  mx-auto flex flex-col md:flex-row gap-12 px-4 lg:px-15">
         {/* Left Column */}
         <div className="md:w-1/2 space-y-6">
-          <h2 className="text-3xl md:text-4xl font-bold">Get Involved</h2>
+          <h2 className="text-3xl md:text-4xl font-bold"> تواصل معنا </h2>
           <p className="text-white text-base md:text-lg leading-relaxed">
-         نرحّب بالتعاون مع المتبرّعين والمستثمرين والمؤسّسات التي تشاركنا رؤيتنا في التنمية المستدامة وتمكين المجتمع. 
-تواصلوا مع فريقنا لاستكشاف فرص الشراكة والتعاون نحو تحقيق أثرٍ مستدام يعود بالنفع على الأجيال القادمة.
+            نرحّب بالتعاون مع المتبرّعين والمستثمرين والمؤسّسات التي تشاركنا
+            رؤيتنا في التنمية المستدامة وتمكين المجتمع. تواصلوا مع فريقنا
+            لاستكشاف فرص الشراكة والتعاون نحو تحقيق أثرٍ مستدام يعود بالنفع على
+            الأجيال القادمة.
           </p>
         </div>
 
@@ -50,7 +52,9 @@ const GetInvolvedSection = () => {
 
             {/* Email / Company Name */}
             <div className="flex flex-col">
-              <label className="text-sm text-white mb-1">البريد الإلكتروني</label>
+              <label className="text-sm text-white mb-1">
+                البريد الإلكتروني
+              </label>
               <input
                 type="email"
                 placeholder="example@email.com"
@@ -58,7 +62,9 @@ const GetInvolvedSection = () => {
               />
             </div>
             <div className="flex flex-col">
-              <label className="text-sm text-white mb-1">اسم الشركة (الاختياري)</label>
+              <label className="text-sm text-white mb-1">
+                اسم الشركة (الاختياري)
+              </label>
               <input
                 type="text"
                 placeholder="Blue Acer Group of Companies"
@@ -90,9 +96,7 @@ const GetInvolvedSection = () => {
 
             {/* Trade License (Full Width) */}
             <div className="flex flex-col md:col-span-2">
-              <label className="text-sm text-white mb-1">
-                تراخيص الشركة
-              </label>
+              <label className="text-sm text-white mb-1">تراخيص الشركة</label>
               <input
                 type="text"
                 placeholder="Lorem Ipsum"
@@ -103,7 +107,7 @@ const GetInvolvedSection = () => {
             {/* Municipality Developer Registration */}
             <div className="flex flex-col md:col-span-2">
               <label className="text-sm text-white mb-1">
-               التسجيل في البلدية/المطور
+                التسجيل في البلدية/المطور
               </label>
               <textarea
                 rows={4}
