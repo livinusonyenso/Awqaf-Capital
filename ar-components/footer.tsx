@@ -43,30 +43,42 @@ const Footer: React.FC<FooterProps> = ({
             </p>
           </div>
 
-          {/* Middle: Useful links */}
+          {/* Middle: الروابط المفيدة */}
           <div className="md:col-span-4">
             <h4 className="text-sm tracking-wide text-[#505050]  font-bold uppercase">
-              Useful Links
+              الروابط المفيدة
             </h4>
             <ul className="mt-4 space-y-3 text-[15px]">
               <li>
-                <a href="#about" className="hover:text-[#0A1C45]/80 text-[14px] text-[#505050] ">
-                  About Awqaf
+                <a
+                  href="#about"
+                  className="hover:text-[#0A1C45]/80 text-[14px] text-[#505050] "
+                >
+                  عن الأوقاف
                 </a>
               </li>
               <li>
-                <a href="#opportunities" className="hover:text-[#0A1C45]/80 text-[14px] text-[#505050] ">
-                  Investment Opportunities
+                <a
+                  href="#opportunities"
+                  className="hover:text-[#0A1C45]/80 text-[14px] text-[#505050] "
+                >
+                  فرص الاستثمار
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#0A1C45]/80 text-[14px] text-[#505050] ">
-                  News and Events
+                <a
+                  href="#"
+                  className="hover:text-[#0A1C45]/80 text-[14px] text-[#505050] "
+                >
+                  الأخبار والفعاليات
                 </a>
               </li>
               <li>
-                <a href="#contact" className="hover:text-[#0A1C45]/80 text-[14px] text-[#505050] ">
-                  Get in Touch
+                <a
+                  href="#contact"
+                  className="hover:text-[#0A1C45]/80 text-[14px] text-[#505050] "
+                >
+                  تواصل معنا
                 </a>
               </li>
             </ul>
@@ -74,7 +86,7 @@ const Footer: React.FC<FooterProps> = ({
 
           {/* Right: Social */}
           <div className="md:col-span-3">
-            <h4 className="text-sm tracking-wide text-[#505050]  font-bold uppercase">
+            {/* <h4 className="text-sm tracking-wide text-[#505050]  font-bold uppercase">
               Social Media
             </h4>
             <div className="mt-4 flex items-center gap-5">
@@ -122,7 +134,6 @@ const Footer: React.FC<FooterProps> = ({
                   />
                 </svg>
               </a>
-              {/* X (Twitter) — custom SVG for the X glyph */}
               <a
                 href="#"
                 aria-label="X"
@@ -141,10 +152,10 @@ const Footer: React.FC<FooterProps> = ({
                   />
                 </svg>
               </a>
-            </div>
+            </div> */}
             <button
               type="submit"
-              className="bg-[#3AA4AF] text-white px-6 py-4 hover:bg-[#6BB8B8] transition mt-14 flex gap-3.5 items-center "
+              className="bg-[#3AA4AF] text-white px-6 py-4 hover:bg-[#6BB8B8] transition flex gap-3.5 items-center "
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -165,7 +176,7 @@ const Footer: React.FC<FooterProps> = ({
                   </clipPath>
                 </defs>
               </svg>
-              <span>Visit Awqaf Abu Dhabi</span>
+              <span>قم بزيارة أوقاف أبوظبي</span>
             </button>
           </div>
         </div>
@@ -177,19 +188,19 @@ const Footer: React.FC<FooterProps> = ({
               href="#sitemap"
               className="hover:text-slate-800 text-[#505050] font-bold"
             >
-              SITEMAP
+              خريطة الموقع
             </a>
             <a
               href="#terms"
               className="hover:text-slate-800 text-[#505050] font-bold"
             >
-              TERMS &amp; CONDITIONS
+              الشروط والأحكام
             </a>
             <a
               href="#privacy"
               className="hover:text-slate-800 text-[#505050] font-bold"
             >
-              PRIVACY POLICY
+              سياسة الخصوصية
             </a>
           </div>
         </div>

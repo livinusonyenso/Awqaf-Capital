@@ -122,7 +122,7 @@ const GetInvolvedSection = () => {
                 type="submit"
                 className="bg-[#3AA4AF] text-white px-6 py-4 hover:bg-[#6BB8B8] transition"
               >
-                Submit
+                إرسال
               </button>
             </div>
           </form>
