@@ -189,7 +189,7 @@ const Footer: React.FC<FooterProps> = ({
         </div>
 
         {/* Bottom row */}
-        <div className="mt-12  border-slate-200 pt-6">
+        {/* <div className="mt-12  border-slate-200 pt-6">
           <div className="flex flex-wrap items-center justify-center gap-8 text-sm text-slate-600">
             <a
               href="#sitemap"
@@ -210,7 +210,7 @@ const Footer: React.FC<FooterProps> = ({
               PRIVACY POLICY
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
     </footer>
   );
