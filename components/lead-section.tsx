@@ -40,7 +40,7 @@ export default function LeadSection() {
     <section
       className="relative min-h-[640px] flex items-center"
       style={{
-        backgroundImage: "url(/images/invest-bg.png)",
+        backgroundImage: "url(/images/invest-bg.svg)",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
       }}
@@ -48,7 +48,7 @@ export default function LeadSection() {
       {/* Background image */}
       {/* <div className="absolute inset-0">
         <Image
-          src="/images/invest-bg.png" 
+          src="/images/invest-bg.svg" 
           alt="Background pattern"
           fill
           className="object-cover"

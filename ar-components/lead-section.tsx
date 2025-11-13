@@ -40,7 +40,7 @@ export default function LeadSection() {
     <section
       className="relative min-h-[640px] flex items-center"
       style={{
-        backgroundImage: "url(/images/invest-bg.png)",
+        backgroundImage: "url(/images/invest-bg.svg)",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
       }}
