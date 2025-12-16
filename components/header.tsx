@@ -14,14 +14,14 @@ export default function Header() {
   }, []);
 
   return (
-    <header className="bg-white border-b border-gray-100 sticky top-0 z-50">
-      <div className="mx-auto px-4 sm:px-6 lg:px-15 py-4 sm:py-6 lg:py-8">
+    <header className="mb-[-100px] z-50 relative ">
+      <div className="mx-auto px-4 sm:px-6 lg:px-35 py-4 sm:py-6 lg:py-8">
         <div className="flex items-center justify-between">
           {/* Left: Logo */}
           <div className="shrink-0">
             <Link href="/" aria-label="Home">
               <Image
-                src="/images/AwqafCapitalLogo.svg"
+                src="/images/HeaderAwqafCapitalLogo.svg"
                 alt="Awqaf Capital Logo"
                 width={150}
                 height={40}
@@ -35,32 +35,33 @@ export default function Header() {
           <nav className="hidden md:flex items-center space-x-8 text-[15px] font-medium text-gray-700">
             <Link
               href="#about"
-              className="hover:text-[#0F3558] transition-colors cursor-pointer"
+              className="hover:text-[#0F3558] transition-colors cursor-pointer text-[20px] text-white "
             >
               About
             </Link>
             <Link
               href="#values"
-              className="hover:text-[#0F3558] transition-colors cursor-pointer"
+              className="hover:text-[#0F3558] transition-colors cursor-pointer text-[20px] text-white "
             >
               Our Values
             </Link>
             <Link
               href="#services"
-              className="hover:text-[#0F3558] transition-colors cursor-pointer"
+              className="hover:text-[#0F3558] transition-colors cursor-pointer text-[20px] text-white "
             >
               Services
             </Link>
             {/* <Link
               href="#opportunities"
-              className="hover:text-[#0F3558] transition-colors cursor-pointer"
+              className="hover:text-[#0F3558] transition-colors cursor-pointer text-[20px] text-white "
             >
               Opportunities
             </Link> */}
             <div className="hidden md:block cursor-pointer">
               <Link
-                href="/ar"
-                className="border border-[#25686E] text-[#25686E] px-6 py-4 text-sm font-bold hover:bg-[#0F3558] hover:text-white transition-all "
+                href="#"
+                // href="/ar"
+                className="border border-white text-white px-6 py-4 text-sm font-bold hover:bg-[#0F3558] hover:text-white transition-all "
               >
                 العربية
               </Link>
@@ -68,7 +69,7 @@ export default function Header() {
             <div className="hidden md:block cursor-pointer">
               <Link
                 href="#contact"
-                className="border border-[#25686E] text-[#25686E] px-6 py-4 text-sm font-medium hover:bg-[#0F3558] hover:text-white transition-all "
+                className="border border-white text-white px-6 py-4 text-sm font-medium hover:bg-[#0F3558] hover:text-white transition-all "
               >
                 Get In Touch
               </Link>

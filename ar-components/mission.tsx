@@ -19,7 +19,7 @@ export default function MissionVision({
 }: any) {
   return (
     <section className={className}>
-      <div className="mx-auto pb-16 sm:pb-5 lg:pb-20 px-4 lg:px-15">
+      <div className="mx-auto pb-16 sm:pb-5 lg:pb-20 px-4 lg:px-35">
         <div className="rounded border border-slate-200 bg-white">
           <div className="grid md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-slate-200">
             {items.map((it: Item, idx: number) => (
