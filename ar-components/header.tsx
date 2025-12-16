@@ -15,7 +15,7 @@ export default function Header() {
 
   return (
     <header className="bg-white border-b border-gray-100 sticky top-0 z-50">
-      <div className="mx-auto px-4 sm:px-6 lg:px-15 py-4 sm:py-6 lg:py-8">
+      <div className="mx-auto px-4 sm:px-6 lg:px-35 py-4 sm:py-6 lg:py-8">
         <div className="flex items-center justify-between">
           {/* Left: Logo */}
           <div className="shrink-0">
