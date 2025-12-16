@@ -15,7 +15,7 @@ export default function TitleComponent({
 }: AboutSplitProps) {
   return (
     <section className="bg-white">
-      <div className="mx-auto py-16 sm:py-10  lg:py-20 px-4 lg:px-35">
+      <div className="mx-auto py-16 sm:py-10  lg:py-20 px-4 lg:px-15">
         <div className="flex justify-between flex-wrap lg:flex-nowrap md:flex-wrap sm:flex-wrap gap-6 lg:gap-0 ">
           {/* Left: Title */}
           <div className="flex-auto lg:flex-1 md:flex-1  ">

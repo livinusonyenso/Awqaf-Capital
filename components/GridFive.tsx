@@ -41,7 +41,7 @@ export default function GridFive({
               </div>
               <article
                 key={idx}
-                className={`px-4 lg:px-35 py-6 lg:py-10  text-${textColor} border-t lg:border-t-0 lg:border-l border-white/20`}
+                className={`px-4 lg:px-15 py-6 lg:py-10  text-${textColor} border-t lg:border-t-0 lg:border-l border-white/20`}
                 style={{
                   borderLeftWidth: idx === 0 ? 0 : undefined,
                 }}

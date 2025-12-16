@@ -17,7 +17,7 @@ const GetInvolvedSection = () => {
       />
 
       {/* Content Wrapper */}
-      <div className="relative  mx-auto flex flex-col md:flex-row gap-12 px-4 lg:px-35">
+      <div className="relative  mx-auto flex flex-col md:flex-row gap-12 px-4 lg:px-15">
         {/* Left Column */}
         <div className="md:w-1/2 space-y-6">
           <h2 className="text-3xl md:text-4xl font-bold"> تواصل معنا </h2>

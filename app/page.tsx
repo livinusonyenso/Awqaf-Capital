@@ -8,19 +8,14 @@ import TitleComponent from "@/components/TitleComponent";
 import MissionVision from "@/components/mission";
 import OurValues from "@/components/ourValueTitle";
 import QuoteBlock from "@/components/quoteBlock";
-import HeroSection from "@/components/mainHeader_v2";
-import MissionSlider from "@/components/MissionSlider";
-import InvestorOpportunities from "@/components/InvestorOpportunities";
 
 export default function Home() {
   return (
     <>
-      {/* <HeroCarousel /> */}
-      <HeroSection />
+      <HeroCarousel />
       <section id="about" className="scroll-mt-20">
         <TitleComponent />
-        {/* <MissionVision /> */}
-        <MissionSlider />
+        <MissionVision />
       </section>
       <section id="values" className="scroll-mt-20">
         <OurValues />
@@ -31,12 +26,11 @@ export default function Home() {
         <ServicesSection />
       </section>
       <InnovationSection />
-      <InvestorOpportunities />
       {/* <section id="opportunities" className="scroll-mt-20">
         <Opportunities />
       </section> */}
       <section id="contact" className="scroll-mt-20">
-        {/* <ContactForm /> */}
+        <ContactForm />
       </section>
     </>
   );
