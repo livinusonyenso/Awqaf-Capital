@@ -14,7 +14,7 @@ export default function Header() {
   }, []);
 
   return (
-    <header className="mb-[-100px] z-50 relative ">
+    <header className="mb-[-130px] z-50 relative ">
       <div className="mx-auto px-4 sm:px-6 lg:px-35 py-4 sm:py-6 lg:py-8">
         <div className="flex items-center justify-between">
           {/* Left: Logo */}
@@ -25,7 +25,7 @@ export default function Header() {
                 alt="Awqaf Capital Logo"
                 width={150}
                 height={40}
-                className="object-contain"
+                className="object-contain w-40 lg:w-full "
                 priority
               />
             </Link>
@@ -86,17 +86,17 @@ export default function Header() {
             {/* Hamburger / X */}
             <span className="relative block h-5 w-7">
               <span
-                className={`absolute left-0 top-0 h-0.5 w-7 bg-[#0F3558] transition-transform duration-300 ${
+                className={`absolute left-0 top-0 h-0.5 w-7  ${open ? 'bg-black' : 'bg-white'}  transition-transform duration-300 ${
                   open ? "translate-y-2.5 rotate-45" : ""
                 }`}
               />
               <span
-                className={`absolute left-0 top-2.5 h-0.5 w-7 bg-[#0F3558] transition-opacity duration-300 ${
+                className={`absolute left-0 top-2.5 h-0.5 w-7  ${open ? 'bg-black' : 'bg-white'}  transition-opacity duration-300 ${
                   open ? "opacity-0" : "opacity-100"
                 }`}
               />
               <span
-                className={`absolute left-0 top-5 h-0.5 w-7 bg-[#0F3558] transition-transform duration-300 ${
+                className={`absolute left-0 top-5 h-0.5 w-7  ${open ? 'bg-black' : 'bg-white'}  transition-transform duration-300 ${
                   open ? "-translate-y-2.5 -rotate-45" : ""
                 }`}
               />

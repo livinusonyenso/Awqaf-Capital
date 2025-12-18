@@ -141,19 +141,24 @@ export default function LeadSection() {
       whileInView="visible"
       viewport={{ once: true, amount: 0.5 }}
       variants={sectionVariants}
+      style={{
+        backgroundImage: 'url(/lead-bg.svg)',
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+      }}
     >
       <div className="relative min-h-screen text-white flex items-center justify-center px-6 md:px-12 lg:px-24 overflow-hidden">
         {/* Video Background */}
-        <video
+        {/* <video
           autoPlay
           loop
           muted
           playsInline
           className="absolute top-0 left-0 w-full h-full object-cover z-0"
         >
-          <source src="lead-vid.mp4" type="video/mp4" />
-          {/* <source src="particles.webm" type="video/webm" /> */}
-        </video>
+          <source src="lead-vid.mp4" type="video/mp4" /> 
+        </video> */}
 
         {/* Dark Overlay for better text readability */}
         <div className="absolute top-0 left-0 w-full h-full bg-black/50 z-10" />

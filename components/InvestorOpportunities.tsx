@@ -71,6 +71,7 @@ import { AnimatedText } from "@/lib/shared";
 
 export default function InvestorOpportunities() {
   const [hoveredCard, setHoveredCard] = useState<number | null>(null);
+  const [cardPadding, setCardPadding] = useState("");
   const opportunities = [
     {
       id: 1,
@@ -123,8 +124,14 @@ export default function InvestorOpportunities() {
             <div
               key={opportunity.id}
               className="perspective-container"
-              onMouseEnter={() => setHoveredCard(opportunity.id)}
-              onMouseLeave={() => setHoveredCard(null)}
+              onMouseEnter={() => {
+                // setCardPadding("p-[24px] pt-[0px]");
+                setHoveredCard(opportunity.id);
+              }}
+              onMouseLeave={() => {
+                // setCardPadding("");
+                setHoveredCard(null);
+              }}
             >
               <div
                 className="relative cursor-pointer transition-all duration-700 ease-out preserve-3d"
@@ -149,7 +156,15 @@ export default function InvestorOpportunities() {
                   </div>
 
                   {/* Content */}
-                  <div className="space-y-3">
+                  <div
+                    className="space-y-3"
+                    style={{
+                      padding:
+                        hoveredCard === opportunity.id
+                          ? "0px 24px 24px 24px"
+                          : "0",
+                    }}
+                  >
                     <h3 className="text-xl md:text-[28px] font-bold text-[#B29C78]">
                       <AnimatedText text={opportunity.title} />
                     </h3>
@@ -161,7 +176,7 @@ export default function InvestorOpportunities() {
 
                 {/* Book Page Effect - Right Side */}
                 <div
-                  className="absolute top-0 right-0 w-full h-full bg-gradient-to-l from-gray-100 to-gray-50 pointer-events-none shadow-2xl"
+                  className={`absolute top-0 right-0 w-full h-full bg-gradient-to-l from-gray-100 to-gray-50 pointer-events-none shadow-2xl `}
                   style={{
                     transformStyle: "preserve-3d",
                     transform:
