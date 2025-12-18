@@ -8,7 +8,8 @@ export function cn(...inputs: ClassValue[]) {
 export const sectionVariants = {
   hidden: {
     opacity: 0,
-    y: 60,
+    y: 30,
+    // y: 60,
     scale: 0.95,
   },
   visible: {
